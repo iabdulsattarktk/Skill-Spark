@@ -147,20 +147,3 @@ section h2::after {
 .footer-section a:hover {
   color: var(--primary) !important;
 }
-/* ```
-
-**Ctrl+S** se save karo.
-
----
-
-## Pehla Git Commit — Ab Terminal mein ye likho
-
-Teeno commands ek ek karke:
-```
-git add .
-```
-```
-git commit -m "Initial project structure and homepage"
-```
-```
-git push -u origin master */
