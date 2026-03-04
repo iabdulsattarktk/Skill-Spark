@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses - SkillSpark</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">SkillSpark</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="courses.html">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">Our Team</a></li>
+              <li><a class="dropdown-item" href="courses.html">All Courses</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header text-white text-center">
+    <div class="container">
+      <h1 class="fw-bold">Our Courses</h1>
+      <p class="mt-2 text-light">Choose a course and start your journey today.</p>
+    </div>
+  </section>
+
+  <!-- COURSES GRID -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card course-card h-100">
+            <div class="card-body">
+              <span class="badge price-badge mb-2">Rs. 4,999</span>
+              <h5 class="card-title fw-bold">Web Development</h5>
+              <p class="card-text text-muted">HTML5, CSS3, Bootstrap, JavaScript aur React. Beginner se professional tak.</p>
+              <ul class="list-unstyled small text-muted">
+                <li><i class="bi bi-check-circle text-success me-1"></i>8 Weeks</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Certificate Included</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Live Projects</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <button class="btn btn-enroll w-100" data-bs-toggle="modal" data-bs-target="#courseModal"
+                data-title="Web Development" data-duration="8 Weeks" data-level="Beginner to Advanced"
+                data-desc="Is course mein tum HTML5, CSS3, Bootstrap 5, JavaScript aur React seekhoge. Real-world projects build karoge aur certificate milega.">
+                Enroll Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card course-card h-100">
+            <div class="card-body">
+              <span class="badge price-badge mb-2">Rs. 5,999</span>
+              <h5 class="card-title fw-bold">App Development</h5>
+              <p class="card-text text-muted">Flutter aur React Native se cross-platform mobile apps banao.</p>
+              <ul class="list-unstyled small text-muted">
+                <li><i class="bi bi-check-circle text-success me-1"></i>10 Weeks</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Certificate Included</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>App Store Deployment</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <button class="btn btn-enroll w-100" data-bs-toggle="modal" data-bs-target="#courseModal"
+                data-title="App Development" data-duration="10 Weeks" data-level="Intermediate"
+                data-desc="Flutter aur React Native se Android aur iOS apps banao. Ek codebase se dono platforms cover hote hain.">
+                Enroll Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card course-card h-100">
+            <div class="card-body">
+              <span class="badge price-badge mb-2">Rs. 3,999</span>
+              <h5 class="card-title fw-bold">UI/UX Design</h5>
+              <p class="card-text text-muted">Figma se professional designs banao. User research aur prototyping seekho.</p>
+              <ul class="list-unstyled small text-muted">
+                <li><i class="bi bi-check-circle text-success me-1"></i>6 Weeks</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Certificate Included</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Portfolio Projects</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <button class="btn btn-enroll w-100" data-bs-toggle="modal" data-bs-target="#courseModal"
+                data-title="UI/UX Design" data-duration="6 Weeks" data-level="Beginner"
+                data-desc="Figma, Adobe XD aur design principles seekho. User flows, wireframes aur high-fidelity prototypes banana sikho.">
+                Enroll Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card course-card h-100">
+            <div class="card-body">
+              <span class="badge price-badge mb-2">Rs. 6,999</span>
+              <h5 class="card-title fw-bold">AI & Data Science</h5>
+              <p class="card-text text-muted">Python, Machine Learning, Pandas aur Data Visualization seekho.</p>
+              <ul class="list-unstyled small text-muted">
+                <li><i class="bi bi-check-circle text-success me-1"></i>12 Weeks</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Certificate Included</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Kaggle Projects</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <button class="btn btn-enroll w-100" data-bs-toggle="modal" data-bs-target="#courseModal"
+                data-title="AI & Data Science" data-duration="12 Weeks" data-level="Intermediate"
+                data-desc="Python se shuru karke Machine Learning models train karo. Real datasets par kaam karo aur Kaggle competitions mein participate karo.">
+                Enroll Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card course-card h-100">
+            <div class="card-body">
+              <span class="badge price-badge mb-2">Rs. 4,499</span>
+              <h5 class="card-title fw-bold">Cybersecurity</h5>
+              <p class="card-text text-muted">Ethical hacking, network security aur penetration testing seekho.</p>
+              <ul class="list-unstyled small text-muted">
+                <li><i class="bi bi-check-circle text-success me-1"></i>9 Weeks</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Certificate Included</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>CTF Challenges</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <button class="btn btn-enroll w-100" data-bs-toggle="modal" data-bs-target="#courseModal"
+                data-title="Cybersecurity" data-duration="9 Weeks" data-level="Intermediate"
+                data-desc="Ethical hacking tools, network protocols aur security vulnerabilities ko samjho. Real lab environments mein practice karo.">
+                Enroll Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card course-card h-100">
+            <div class="card-body">
+              <span class="badge price-badge mb-2">Rs. 3,499</span>
+              <h5 class="card-title fw-bold">Cloud Computing</h5>
+              <p class="card-text text-muted">AWS, Azure aur Google Cloud basics. Deployment aur DevOps introduction.</p>
+              <ul class="list-unstyled small text-muted">
+                <li><i class="bi bi-check-circle text-success me-1"></i>7 Weeks</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Certificate Included</li>
+                <li><i class="bi bi-check-circle text-success me-1"></i>Cloud Lab Access</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <button class="btn btn-enroll w-100" data-bs-toggle="modal" data-bs-target="#courseModal"
+                data-title="Cloud Computing" data-duration="7 Weeks" data-level="Beginner"
+                data-desc="AWS EC2, S3, Lambda aur Azure services seekho. Applications ko cloud par deploy karna sikho.">
+                Enroll Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal fade" id="courseModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: var(--dark);">
+          <h5 class="modal-title text-white" id="modalTitle">Course Details</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Duration:</strong> <span id="modalDuration"></span></p>
+          <p><strong>Level:</strong> <span id="modalLevel"></span></p>
+          <p><strong>About:</strong> <span id="modalDesc"></span></p>
+        </div>
+        <div class="modal-footer">
+          <a href="register.html" class="btn btn-enroll">Register Now</a>
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer-section text-white py-4">
+    <div class="container text-center">
+      <p class="mb-1">SkillSpark — Learn. Build. Launch.</p>
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-github fs-5"></i></a>
+      <p class="mt-2 text-muted small">© 2026 SkillSpark. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Modal JS -->
+  <script>
+    const courseModal = document.getElementById('courseModal');
+    courseModal.addEventListener('show.bs.modal', function (e) {
+      const btn = e.relatedTarget;
+      document.getElementById('modalTitle').textContent    = btn.getAttribute('data-title');
+      document.getElementById('modalDuration').textContent = btn.getAttribute('data-duration');
+      document.getElementById('modalLevel').textContent    = btn.getAttribute('data-level');
+      document.getElementById('modalDesc').textContent     = btn.getAttribute('data-desc');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
+
