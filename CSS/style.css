@@ -255,3 +255,31 @@ section h2::after {
   border-radius: 8px;
   padding: 14px 18px;
 }
+
+
+/* ─── REGISTER PAGE ─────────────────────────────── */
+.register-card {
+  background: #fff;
+  border: 1px solid #e8e0d0;
+  border-radius: 14px;
+  max-width: 860px;
+  box-shadow: 0 4px 20px rgba(115, 75, 26, 0.08);
+}
+
+.register-card .input-group-text {
+  background-color: var(--secondary);
+  color: #fff;
+  border: none;
+}
+
+.register-card .form-control,
+.register-card select {
+  border: 1px solid #ddd;
+  transition: border-color 0.2s;
+}
+
+.register-card .form-control:focus,
+.register-card select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(219, 177, 42, 0.15);
+}
