@@ -323,3 +323,50 @@ section h2::after {
   overflow: hidden;
   border: 1px solid #e8e0d0;
 }
+
+
+/* ─── DEVELOPER PAGE ────────────────────────────── */
+.dev-profile-card {
+  background: #fff;
+  border: 1px solid #e8e0d0;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(115, 75, 26, 0.10);
+}
+
+.dev-badge {
+  background-color: var(--primary);
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 4px 14px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.dev-social-btn {
+  background-color: var(--secondary);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.dev-social-btn:hover {
+  background-color: var(--primary);
+  color: var(--dark);
+}
+
+.built-card {
+  background: #fff;
+  border: 1px solid #e8e0d0;
+  border-radius: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.built-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(115, 75, 26, 0.12);
+} 

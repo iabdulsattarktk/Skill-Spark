@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet the Developer - SkillSpark</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">SkillSpark</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="developer.html">Meet Developer</a></li>
+              <li><a class="dropdown-item" href="courses.html">All Courses</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header text-white text-center">
+    <div class="container">
+      <h1 class="fw-bold">Meet the Developer</h1>
+      <p class="mt-2 text-light">The person who designed and built SkillSpark from scratch.</p>
+    </div>
+  </section>
+
+  <!-- DEVELOPER PROFILE -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="dev-profile-card p-5 text-center">
+            <img src="https://ui-avatars.com/api/?name=Abdul+Sattar&background=734B1A&color=fff&size=130"
+              class="rounded-circle mb-4" alt="Abdul Sattar"/>
+            <h2 class="fw-bold">Abdul Sattar</h2>
+            <p class="mb-3">
+              <span class="dev-badge me-2">Founder</span>
+              <span class="dev-badge me-2">Web Developer</span>
+              <span class="dev-badge">Full Stack Developer</span>
+            </p>
+            <p class="text-muted mt-3">
+              Abdul Sattar is a university student with a strong passion for web development and technology.
+              He designed and built the entire SkillSpark platform — from UI design to front-end development —
+              with the goal of making quality tech education accessible to every student in Pakistan.
+            </p>
+            <div class="d-flex justify-content-center gap-3 mt-4">
+              <a href="#" class="dev-social-btn"><i class="bi bi-github"></i> GitHub</a>
+              <a href="#" class="dev-social-btn"><i class="bi bi-linkedin"></i> LinkedIn</a>
+              <a href="contact.html" class="dev-social-btn"><i class="bi bi-envelope"></i> Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">Technical Skills</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <p class="fw-semibold mb-1">HTML & CSS</p>
+          <div class="progress mb-4" style="height: 12px;">
+            <div class="progress-bar progress-fill" style="width: 90%;">90%</div>
+          </div>
+          <p class="fw-semibold mb-1">Bootstrap 5</p>
+          <div class="progress mb-4" style="height: 12px;">
+            <div class="progress-bar progress-fill" style="width: 85%;">85%</div>
+          </div>
+          <p class="fw-semibold mb-1">JavaScript</p>
+          <div class="progress mb-4" style="height: 12px;">
+            <div class="progress-bar progress-fill" style="width: 75%;">75%</div>
+          </div>
+          <p class="fw-semibold mb-1">Git & GitHub</p>
+          <div class="progress mb-4" style="height: 12px;">
+            <div class="progress-bar progress-fill" style="width: 80%;">80%</div>
+          </div>
+          <p class="fw-semibold mb-1">UI/UX Design</p>
+          <div class="progress mb-4" style="height: 12px;">
+            <div class="progress-bar progress-fill" style="width: 70%;">70%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I BUILT -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">What I Built in This Project</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-sm-6 col-lg-4">
+          <div class="built-card p-4 text-center">
+            <i class="bi bi-house-door fs-2 mb-3" style="color: var(--primary);"></i>
+            <h6 class="fw-bold">Home Page</h6>
+            <p class="text-muted small">Responsive navbar, hero section, feature cards, testimonials carousel and footer.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="built-card p-4 text-center">
+            <i class="bi bi-journal-bookmark fs-2 mb-3" style="color: var(--primary);"></i>
+            <h6 class="fw-bold">Courses Page</h6>
+            <p class="text-muted small">6 course cards with price badges, hover effects and modal popups.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="built-card p-4 text-center">
+            <i class="bi bi-person-circle fs-2 mb-3" style="color: var(--primary);"></i>
+            <h6 class="fw-bold">About Page</h6>
+            <p class="text-muted small">Mission section, progress bars, founder profile and milestone timeline.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="built-card p-4 text-center">
+            <i class="bi bi-ui-checks fs-2 mb-3" style="color: var(--primary);"></i>
+            <h6 class="fw-bold">Registration Page</h6>
+            <p class="text-muted small">Responsive form with validation, dropdowns, radio buttons and file upload.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="built-card p-4 text-center">
+            <i class="bi bi-telephone fs-2 mb-3" style="color: var(--primary);"></i>
+            <h6 class="fw-bold">Contact Page</h6>
+            <p class="text-muted small">Contact form with validation, address info and embedded Google Map.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-section text-white py-4">
+    <div class="container text-center">
+      <p class="mb-1">SkillSpark — Learn. Build. Launch.</p>
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-github fs-5"></i></a>
+      <p class="mt-2 text-muted small">© 2026 SkillSpark. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>  
+
