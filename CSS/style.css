@@ -1,10 +1,10 @@
 /* ─── ROOT COLORS ─────────────────────────────── */
 :root {
-  --primary:   #DBB12A;
-  --secondary: #734B1A;
-  --dark:      #150E03;
-  --light-bg:  #f9f6f0;
-  --text-dark: #1a1a1a;
+  --primary:   #B44FE8;
+  --secondary: #1EAEDB;
+  --dark:      #0D0D1A;
+  --light-bg:  #f0f0ff;
+  --text-dark: #1a1a2e;
   --text-muted:#6c757d;
 }
 
