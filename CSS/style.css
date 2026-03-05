@@ -127,6 +127,15 @@ section h2::after {
 #testimonialCarousel .carousel-item p {
   color: var(--text-dark);
   font-size: 1.1rem;
+  font-style: italic;
+}
+#testimonialCarousel .carousel-item p {
+    padding: 20px 60px;
+}
+
+testimonial-carousel strong {
+  color: var(--secondary);
+  font-size: 0.95rem;
 }
 
 .carousel-control-prev-icon,
