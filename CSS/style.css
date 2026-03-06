@@ -560,3 +560,38 @@ body.dark-mode .dropdown-item:hover {
 body.dark-mode .footer-section {
   background-color: #050510;
 }
+
+
+/* ─── SCROLL TO TOP ─────────────────────────────── */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: var(--dark);
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  box-shadow: 0 4px 15px rgba(180, 79, 232, 0.4);
+}
+
+#scrollTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#scrollTopBtn:hover {
+  background-color: var(--secondary);
+  color: #fff;
+  transform: translateY(-3px);
+}

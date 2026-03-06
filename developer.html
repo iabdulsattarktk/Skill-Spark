@@ -7,6 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
 </head>
 <body>
 
@@ -151,6 +152,11 @@
     </div>
   </section>
 
+  <!-- SCROLL TO TOP -->
+  <button id="scrollTopBtn" onclick="scrollToTop()" title="Go to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
   <!-- FOOTER -->
   <footer class="footer-section text-white pt-5 pb-3">
     <div class="container">
@@ -214,6 +220,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
     function toggleDark() {
       document.body.classList.toggle('dark-mode');
@@ -234,6 +241,24 @@
         document.getElementById('darkIcon').className = 'bi bi-sun-fill';
       }
     };
+
+    // AOS Animation init
+    AOS.init({ duration: 700, once: true });
+
+    // Scroll to top
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Show/hide scroll button
+    window.addEventListener('scroll', function() {
+      const btn = document.getElementById('scrollTopBtn');
+      if (window.scrollY > 300) {
+        btn.classList.add('show');
+      } else {
+        btn.classList.remove('show');
+      }
+    });
   </script>
 </body>
 </html>  
